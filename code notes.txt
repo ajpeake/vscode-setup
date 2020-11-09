@@ -1,0 +1,37 @@
+Open the Global Command Pallet with Ctrl-Shift-P
+Then type in what you want to change...i.e. Color Theme
+
+Color Theme - Predawn (Microsoft)
+File Icon Theme - Ayu
+
+Using the gear icon on the lower left, you can open the global default settings
+
+using Ctrl-F, you can search for any setting you want.
+i.e. Ctrl-F (workbench.settings.editor)
+i.e. I changed that from ui to json
+
+To Open the Integrated Terminal, use Ctrl-~
+
+Added additonal settings to the local settings file for new Font's etc.
+
+To create a virtual environment using the builtin module, enter:
+python -m venv (your name for the virtual environment)
+i.e. python -m venv my-venv
+
+Shift-Alt-F formats the code.
+First we need to install a formater...installed 'black' from the popup suggestion.
+Also added the seformater setting to my settings file along with the format on save
+
+Also Ctrl-S saves your files...
+
+to sort the import statement in your code file, use the command pallet and run the
+"Sort Imports" command
+
+to install Python packages, use the pip Command
+i.e. pip install requests    # this installs the requests module
+to get a list of all packages installed, use pip list
+
+Installed Code-Runner to make running files easier. Also made some changes the the settings file
+to make it easier to read the output and to correct the running environment
+Ctrl-Alt-N also runs Code-Runner
+
